@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int kurang(int a, int b) {
     if (b == 0) {
@@ -10,11 +11,11 @@ int kurang(int a, int b) {
 
 int main() {
     int num1, num2;
-    std::cout << "Masukkan dua angka: ";
-    std::cin >> num1 >> num2;
+    cout << "Masukkan dua angka: ";
+    cin >> num1 >> num2;
 
     int hasil = kurang(num1, num2);
 
-    std::cout << "Hasil pengurangan: " << hasil << std::endl;
+    cout << "Hasil pengurangan: " << hasil << endl;
     return 0;
 }
