@@ -2,7 +2,7 @@
 
 int pembagian(int a, int b) {
     if (b == 0) {
-        std::cout << "Error: Pembagian dengan 0 tidak dapat dilakukan." << std::endl;
+        cout << "Error: Pembagian dengan 0 tidak dapat dilakukan." << endl;
         exit(1);
     } else if (a < b) {
         return 0;
@@ -13,11 +13,11 @@ int pembagian(int a, int b) {
 
 int main() {
     int num1, num2;
-    std::cout << "Masukkan dua angka: ";
-    std::cin >> num1 >> num2;
+    cout << "Masukkan dua angka: ";
+    cin >> num1 >> num2;
 
     int hasil = pembagian(num1, num2);
 
-    std::cout << "Hasil pembagian: " << hasil << std::endl;
+    cout << "Hasil pembagian: " << hasil << endl;
     return 0;
 }
