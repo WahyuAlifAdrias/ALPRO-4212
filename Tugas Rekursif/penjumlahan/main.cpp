@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int tambah(int a, int b) {
     if (b == 0) {
@@ -10,12 +11,12 @@ int tambah(int a, int b) {
 
 int main() {
     int num1, num2;
-    std::cout << "Masukkan dua angka: ";
-    std::cin >> num1 >> num2;
+    cout << "Masukkan dua angka: ";
+    cin >> num1 >> num2;
 
     int hasil = tambah(num1, num2);
 
-    std::cout << "Hasil penjumlahan: " << hasil << std::endl;
+    cout << "Hasil penjumlahan: " << hasil << endl;
 
     return 0;
 }
