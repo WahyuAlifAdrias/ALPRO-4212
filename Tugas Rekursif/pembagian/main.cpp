@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int pembagian(int a, int b) {
     if (b == 0) {
